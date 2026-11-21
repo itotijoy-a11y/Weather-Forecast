@@ -6,34 +6,39 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">"
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Weather-Forecast</title>
 </head>
 <body>
     <div class="weather">
    <header>
-    <form>
-        <input type="search" placeholder="Enter city name..." required />
-        <input type="submit" value="search" />
+    <form class="search-form">
+        <input type="search" placeholder="Enter city name..." required class="search-form-input" />
+        <input type="submit" value="search" class="search-form-button" />
     </form>
 </header>
 <main>
+    <div class="weather-search-app">
     <div>
-  <h1>Nairobi</h1>
-  <p>
+  <h1 class="weather-search-city">Nairobi</h1>
+  <p class="weather-search-details">
     Saturday 12:10, partially cloudy
     <br />
-    Humidity: 60%, Wind: 5km/h
+    Humidity: <strong>60%</strong>, Wind: <strong>5km/h</strong>
   </p>
   </div>
-  <div>
-    ⛅ 20°C
+  <div class="weather-search-info">
+  <div class="weather-search-icon">⛅</div>
+  <div class="weather-search-temperature">20</div>
+  <div class="weather-search-unit">°C</div>
+  
+     </div>
   </div>
   </main>
-  <footer>Coded by
-    <a href="https://github.com/itotijoy-a11y/" target="_blank">Joyce Korir</a>
-    <a href="https://github.com/itotijoy-a11y/Weather-Forecast" target="_blank">on GitHub</a>open-sourced on Github
-    <a href ="https://weather-forecast-joyce.netlify.app/" target="_blank">on Netlify</a>
+  <footer>This project was coded by
+    <a href="https://github.com/itotijoy-a11y/" target="_blank">Joyce Korir</a> is
+    <a href="https://github.com/itotijoy-a11y/Weather-Forecast" target="_blank">open-sourced on Github</a> and
+    <a href ="https://weather-forecast-joyce.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
     </div>  
 </body>
