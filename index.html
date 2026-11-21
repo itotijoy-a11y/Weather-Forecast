@@ -12,15 +12,19 @@
 <body>
     <div class="weather">
    <header>
-    <form class="search-form">
-        <input type="search" placeholder="Enter city name..." required class="search-form-input" />
+    <form class="search-form" id="search-form">
+        <input type="search" 
+        placeholder="Enter city name..." 
+        required
+        id="search-form-input" 
+        class="search-form-input" />
         <input type="submit" value="search" class="search-form-button" />
     </form>
 </header>
 <main>
     <div class="weather-search-app">
     <div>
-  <h1 class="weather-search-city">Nairobi</h1>
+  <h1 class="weather-search-city" id="city">Nairobi</h1>
   <p class="weather-search-details">
     Saturday 12:10, partially cloudy
     <br />
@@ -40,6 +44,7 @@
     <a href="https://github.com/itotijoy-a11y/Weather-Forecast" target="_blank">open-sourced on Github</a> and
     <a href ="https://weather-forecast-joyce.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
-    </div>  
+    </div>
+    <script src="src/app.js"></script>  
 </body>
 </html>
