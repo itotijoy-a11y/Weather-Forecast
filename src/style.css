@@ -16,12 +16,13 @@ a {
 }
 
 .search-form-input {
-  background-color: rgb(219, 217, 217);
+  background-color: rgb(240, 238, 238);
   border: none;
   border-radius: 7px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   width: 75%;
-  font-size: 16px;
+  font-size: 15px;
+  border: 1px solid #ccc;
  
 }
 
@@ -30,10 +31,11 @@ a {
   color: white;
   border: none;
   border-radius: 7px;
-  padding: 15px 20px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 15px;
   margin-left: 10px;
   width: 20%;
+  border: 1px solid #9167f9;
  
 }
 
@@ -85,8 +87,10 @@ main {
 }
 
 .weather-search-icon {
-  font-size: 45px;
-  margin-top: 10px;
+  height: 70px;
+  width: 80px;
+  margin-right: -10px;
+  margin-top: 5px;
 }
 footer {
   text-align: center;
